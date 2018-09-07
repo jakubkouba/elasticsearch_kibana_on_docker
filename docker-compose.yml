@@ -5,7 +5,7 @@ services:
   elasticsearch:
     image: elasticsearch:5.5.2
     volumes:
-      - ./data/elastic:/usr/share/elasticsearch/data
+      - ./data/elasticearch:/usr/share/elasticsearch/data
     environment:
       - discovery.type=single-node
     ports:
